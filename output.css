@@ -570,9 +570,48 @@ video {
   top: 0px;
 }
 
+.m-8 {
+  margin: 2rem;
+}
+
 .my-8 {
   margin-top: 2rem;
   margin-bottom: 2rem;
+}
+
+.mx-5 {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+
+.my-9 {
+  margin-top: 2.25rem;
+  margin-bottom: 2.25rem;
+}
+
+.my-24 {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+.my-5 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.my-1 {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .flex {
@@ -627,6 +666,11 @@ video {
   background-color: rgb(248 113 113 / var(--tw-bg-opacity));
 }
 
+.bg-slate-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(148 163 184 / var(--tw-bg-opacity));
+}
+
 .bg-custom-image {
   background-image: url('./img/img1.jpg');
 }
@@ -658,6 +702,21 @@ video {
   padding-bottom: 6rem;
 }
 
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .text-yellow-400 {
   --tw-text-opacity: 1;
   color: rgb(250 204 21 / var(--tw-text-opacity));
@@ -673,10 +732,176 @@ video {
   color: rgb(0 0 0 / var(--tw-placeholder-opacity));
 }
 
+.placeholder-white::-moz-placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-placeholder-opacity));
+}
+
+.placeholder-white::placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-placeholder-opacity));
+}
+
+.placeholder-slate-400::-moz-placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(148 163 184 / var(--tw-placeholder-opacity));
+}
+
+.placeholder-slate-400::placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(148 163 184 / var(--tw-placeholder-opacity));
+}
+
+.placeholder-slate-500::-moz-placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(100 116 139 / var(--tw-placeholder-opacity));
+}
+
+.placeholder-slate-500::placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(100 116 139 / var(--tw-placeholder-opacity));
+}
+
+.placeholder-slate-200::-moz-placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(226 232 240 / var(--tw-placeholder-opacity));
+}
+
+.placeholder-slate-200::placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(226 232 240 / var(--tw-placeholder-opacity));
+}
+
+.placeholder-slate-300::-moz-placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(203 213 225 / var(--tw-placeholder-opacity));
+}
+
+.placeholder-slate-300::placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(203 213 225 / var(--tw-placeholder-opacity));
+}
+
+.placeholder-slate-50::-moz-placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(248 250 252 / var(--tw-placeholder-opacity));
+}
+
+.placeholder-slate-50::placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(248 250 252 / var(--tw-placeholder-opacity));
+}
+
+.placeholder-slate-600::-moz-placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(71 85 105 / var(--tw-placeholder-opacity));
+}
+
+.placeholder-slate-600::placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(71 85 105 / var(--tw-placeholder-opacity));
+}
+
 .opacity-25 {
   opacity: 0.25;
 }
 
 .opacity-60 {
   opacity: 0.6;
+}
+
+.opacity-75 {
+  opacity: 0.75;
+}
+
+.opacity-5 {
+  opacity: 0.05;
+}
+
+.opacity-100 {
+  opacity: 1;
+}
+
+.opacity-50 {
+  opacity: 0.5;
+}
+
+.placeholder\:my-9::-moz-placeholder {
+  margin-top: 2.25rem;
+  margin-bottom: 2.25rem;
+}
+
+.placeholder\:my-9::placeholder {
+  margin-top: 2.25rem;
+  margin-bottom: 2.25rem;
+}
+
+.placeholder\:my-40::-moz-placeholder {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.placeholder\:my-40::placeholder {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.placeholder\:ml-8::-moz-placeholder {
+  margin-left: 2rem;
+}
+
+.placeholder\:ml-8::placeholder {
+  margin-left: 2rem;
+}
+
+.placeholder\:ml-2::-moz-placeholder {
+  margin-left: 0.5rem;
+}
+
+.placeholder\:ml-2::placeholder {
+  margin-left: 0.5rem;
+}
+
+.placeholder\:ml-24::-moz-placeholder {
+  margin-left: 6rem;
+}
+
+.placeholder\:ml-24::placeholder {
+  margin-left: 6rem;
+}
+
+.placeholder\:py-2::-moz-placeholder {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.placeholder\:py-2::placeholder {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.placeholder\:py-9::-moz-placeholder {
+  padding-top: 2.25rem;
+  padding-bottom: 2.25rem;
+}
+
+.placeholder\:py-9::placeholder {
+  padding-top: 2.25rem;
+  padding-bottom: 2.25rem;
+}
+
+.placeholder\:pl-8::-moz-placeholder {
+  padding-left: 2rem;
+}
+
+.placeholder\:pl-8::placeholder {
+  padding-left: 2rem;
+}
+
+.placeholder\:pl-6::-moz-placeholder {
+  padding-left: 1.5rem;
+}
+
+.placeholder\:pl-6::placeholder {
+  padding-left: 1.5rem;
 }
