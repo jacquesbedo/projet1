@@ -717,6 +717,41 @@ video {
   padding-bottom: 1rem;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
 .text-yellow-400 {
   --tw-text-opacity: 1;
   color: rgb(250 204 21 / var(--tw-text-opacity));
@@ -800,6 +835,16 @@ video {
 .placeholder-slate-600::placeholder {
   --tw-placeholder-opacity: 1;
   color: rgb(71 85 105 / var(--tw-placeholder-opacity));
+}
+
+.placeholder-slate-100::-moz-placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(241 245 249 / var(--tw-placeholder-opacity));
+}
+
+.placeholder-slate-100::placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(241 245 249 / var(--tw-placeholder-opacity));
 }
 
 .opacity-25 {
